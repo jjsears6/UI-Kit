@@ -1,0 +1,68 @@
+/* LESS Document */
+body {background: rgba(255,255,255,0.8);}
+.navbar-inverse {background: #fff; border-color:#ccc;}
+
+.noticebar li {border-color:#ccc;}
+
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-nav > li > a,
+.module-header h3,
+.module-header li a,
+.module #weather h3,
+.module #tasks .nav-tabs li.active a,
+.module .collapse li a,
+.module .collapsing li a,
+.responsive-calendar .controls h4,
+.responsive-calendar .day a,
+.responsive-calendar .day.header {
+    color:#000;
+}
+
+.module #weather path {
+    fill: #000!important;
+}
+
+.module, .actions .dropdown-menu,
+.module #tasks .nav-tabs li.active a,
+.responsive-calendar {
+    background-color:#fff!important;
+}
+
+.module #tasks .nav-tabs li a:hover {
+    color:#999;
+}
+
+.module .dropdown-menu li a:hover,
+.module .collapse li a:hover,
+.module #tasks .nav-tabs li a:hover {
+    background: #eee;
+}
+
+.custom-radio label, .custom-check label {
+    color:#000;
+}
+
+input[type="checkbox"] + label span,
+input[type="radio"] + label span {
+    background:#f1f1f1;
+	border:1px solid #999;
+	box-shadow: inset 0px 0px 1px #ccc;
+}
+input[type="checkbox"] + label span:hover,
+input[type="radio"] + label span:hover {border-color:#777;}
+
+.responsive-calendar .controls .btn {
+    background: #f1f1f1;
+    color:#000;
+}
+
+.responsive-calendar .controls .btn:hover {
+    border-color:#000;
+    color:#000;
+}
+
+.responsive-calendar .day.not-current a {
+    color:#ccc;
+}
+
+

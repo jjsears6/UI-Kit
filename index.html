@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <meta charset="utf-8">
+        <title>UI Kit by SixthFloor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/responsive-calendar.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/animate-custom.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link href="css/style2.css" rel="alternate stylesheet" type="text/css" title="alt2" media="screen" />
+        <link href="css/normal.css" rel="alternate stylesheet" type="text/css" title="alt1" media="screen" />
+    </head>
+    
+    
+    <body>
+        
+        <div class="navbar-wrapper">
+    <div class="navbar navbar-inverse navbar-static-top">
+      
+        <div class="navbar-header">
+        <a class="navbar-brand" href="#"><span class="thin">Admin</span>UI</a>
+        </div>
+        <div class="navbar-collapse noticebar collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class="dropdown account">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img class="img-responsive" src="images/user-male.png" />
+              <span class="">&nbsp;Heya, Jeff&nbsp;</span>
+                <i class="fa fa-caret-down"></i>
+            </a>
+
+            <ul class="dropdown-menu noticebar-menu noticebar-hoverable" role="menu">
+
+              <li>
+                <a href="#" class="noticebar-item">
+                   <i class="fa fa-pencil"></i> Profile
+                </a>
+              </li>
+                <li>
+                <a href="#" class="noticebar-item">
+                    <i class="fa fa-cogs"></i> Settings
+                </a>
+              </li>
+                <li>
+                <a href="#" class="noticebar-item">
+                    <i class="fa fa-sign-out"></i> Sign Out
+                </a>
+              </li>
+            </ul>
+          </li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown">
+            <i class="fa fa-exclamation-triangle"></i>
+            <span class="navbar-visible-collapsed"></span>
+            </a>
+            <ul class="dropdown-menu noticebar-menu noticebar-hoverable" role="menu">       
+              <li class="nav-header">
+                <div class="pull-left">
+                  0 Alerts
+                </div>
+              </li>
+
+              <li class="noticebar-empty">                  
+                <h4 class="noticebar-empty-title">No alerts here.</h4>
+                <p class="noticebar-empty-text">Keep on doing your thing.</p>                
+              </li>
+                <li class="noticebar-menu-view-all">
+                <a href="#"><i class="fa fa-angle-left mright-10"></i>View All Alerts</a>
+              </li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-bell"></i>
+              <span class="navbar-visible-collapsed"></span>
+              <span class="badge badge-warning animated shake">2</span>
+            </a>
+
+            <ul class="dropdown-menu noticebar-menu noticebar-hoverable" role="menu">
+              <li class="nav-header">
+                <div class="pull-left">
+                  2 Notifications
+                </div>
+
+                <div class="pull-right mark-as">
+                  <a href="javascript:;">Mark as Read</a>
+                </div>
+              </li>
+
+              <li>
+                <a href="#" class="noticebar-item">
+                  <span class="noticebar-item-image">
+                    <i class="fa fa-check-square-o text-success"></i>
+                  </span>
+                  <span class="noticebar-item-body">
+                    <strong class="noticebar-item-title">Task Complete</strong>
+                    <span class="noticebar-item-text">This task is complete.</span>
+                    <span class="noticebar-item-time"><i class="fa fa-clock-o"></i> 12 minutes ago</span>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="noticebar-item">
+                  <span class="noticebar-item-image">
+                    <i class="fa fa-ban text-danger"></i>
+                  </span>
+                  <span class="noticebar-item-body">
+                    <strong class="noticebar-item-title">Sync Error</strong>
+                    <span class="noticebar-item-text">Your sync is fail. Try again.</span>
+                    <span class="noticebar-item-time"><i class="fa fa-clock-o"></i> 20 minutes ago</span>
+                  </span>
+                </a>
+              </li>
+
+              <li class="noticebar-menu-view-all">
+                <a href="#"><i class="fa fa-angle-left mright-10"></i>View All Notifications</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-envelope"></i>
+              <span class="navbar-visible-collapsed"></span>
+              <span class="badge badge-primary animated">2</span>
+            </a>
+
+            <ul class="dropdown-menu noticebar-menu noticebar-hoverable" role="menu">
+              <li class="nav-header">
+                <div class="pull-left">
+                  2 Messages
+                </div>
+
+                <div class="pull-right mark-as">
+                  <a href="javascript:;">Mark as Read</a>
+                </div>
+              </li>
+
+              <li>
+                <a href="#" class="noticebar-item">
+                  <span class="noticebar-item-image">
+                    <img class="img-responsive" src="images/user-male2.png" />
+                  </span>
+                  <span class="noticebar-item-body">
+                    <strong class="noticebar-item-title">Joe Schmo</strong>
+                    <span class="noticebar-item-text">Yo I saw you had something...</span>
+                    <span class="noticebar-item-time"><i class="fa fa-clock-o"></i> 12 minutes ago</span>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="noticebar-item">
+                  <span class="noticebar-item-image">
+                    <img class="img-responsive" src="images/user-female.png" />
+                  </span>
+                  <span class="noticebar-item-body">
+                    <strong class="noticebar-item-title">Lisa Frank</strong>
+                    <span class="noticebar-item-text">Remember my school stuff?</span>
+                    <span class="noticebar-item-time"><i class="fa fa-clock-o"></i> 20 minutes ago</span>
+                  </span>
+                </a>
+              </li>
+
+              <li class="noticebar-menu-view-all">
+                <a href="#"><i class="fa fa-angle-left mright-10"></i>View All Messages</a>
+              </li>
+            </ul>
+          </li>
+          </ul>
+        </div>
+
+    </div>
+</div><!-- /navbar wrapper -->
+
+<div id="themes">
+        <div class="themes-inner">
+            <a class="dark" href="#" onclick="changeStyle('alt1')">Dark</a>
+            <a class="light" href="#" onclick="changeStyle('alt2')">Light</a>
+        </div>
+</div>
+
+  <!-- START THE FEATURETTES -->
+
+  <div class="row" style="padding-top:80px; margin:0;">
+    
+    <div class="col-lg-3 col-sm-6 mbottom-25">
+                    <div class="module">
+                        <div class="module-header">
+                            <div class="module-title pull-left"><h3><span class="thin">The </span> Weather</h3></div>
+                           <ul class="actions pull-right">
+        <li class="dropdown cog">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-cog"></i>
+            </a>
+
+            <ul role="menu" class="dropdown-menu noticebar-menu noticebar-hoverable">
+              <li>
+                <a class="noticebar-item" href="#">
+                   Action 1
+                </a>
+              </li>
+                <li>
+                <a class="noticebar-item" href="#">
+                    Action 2
+                </a>
+              </li>
+                <li>
+                <a class="noticebar-item" href="#">
+                    Action 3
+                </a>
+              </li>
+            </ul>
+          </li>
+                                <li><a data-target="#weather" data-toggle="collapse"><i class="fa fa-angle-down"></i></a></li>
+                               <li><a href="#" class="remove"><span aria-hidden="true">×</span></a></li>
+
+                            </ul>
+                            <div class="clear clearfix"></div>
+                        </div>
+            		<div class="collapse in" id="weather">
+                    
+                    <div class="col-sm-5 col-xs-10">
+                        <svg version="1.1" id="sunny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100%" height="100%" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<path fill="#ffffff" d="M16.167,23.833c4.411,0,8-3.589,8-8s-3.589-8-8-8s-8,3.589-8,8S11.755,23.833,16.167,23.833z M16.167,8.833
+	c3.86,0,7,3.14,7,7s-3.14,7-7,7s-7-3.14-7-7S12.307,8.833,16.167,8.833z"/>
+<path fill="#ffffff" d="M15.5,5.5C15.776,5.5,16,5.276,16,5V1c0-0.276-0.224-0.5-0.5-0.5S15,0.724,15,1v4
+	C15,5.276,15.224,5.5,15.5,5.5z"/>
+<path fill="#ffffff" d="M16,31v-4c0-0.276-0.224-0.5-0.5-0.5S15,26.724,15,27v4c0,0.276,0.224,0.5,0.5,0.5S16,31.276,16,31z"/>
+<path fill="#ffffff" d="M5.5,16.5C5.5,16.224,5.276,16,5,16H1c-0.276,0-0.5,0.224-0.5,0.5S0.724,17,1,17h4
+	C5.276,17,5.5,16.776,5.5,16.5z"/>
+<path fill="#ffffff" d="M31,16h-4c-0.276,0-0.5,0.224-0.5,0.5S26.724,17,27,17h4c0.276,0,0.5-0.224,0.5-0.5S31.276,16,31,16z"/>
+<path fill="#ffffff" d="M6.08,26.794l2.829-2.829c0.195-0.195,0.195-0.512,0-0.707c-0.195-0.195-0.512-0.195-0.707,0l-2.829,2.829
+	c-0.195,0.195-0.195,0.512,0,0.707c0.098,0.098,0.226,0.146,0.354,0.146C5.854,26.94,5.982,26.891,6.08,26.794z"/>
+<path fill="#ffffff" d="M24.111,8.555c0.128,0,0.256-0.049,0.354-0.146l2.829-2.829c0.195-0.195,0.195-0.512,0-0.707
+	c-0.195-0.195-0.512-0.195-0.707,0l-2.829,2.829c-0.195,0.195-0.195,0.512,0,0.707C23.855,8.506,23.983,8.555,24.111,8.555z"/>
+<path fill="#ffffff" d="M24.465,23.258c-0.195-0.195-0.512-0.195-0.707,0c-0.195,0.195-0.195,0.512,0,0.707l2.829,2.829
+	c0.098,0.098,0.226,0.146,0.354,0.146c0.128,0,0.256-0.049,0.354-0.146c0.195-0.195,0.195-0.512,0-0.707L24.465,23.258z"/>
+<path fill="#ffffff" d="M8.202,8.409c0.098,0.098,0.226,0.146,0.354,0.146c0.128,0,0.256-0.049,0.354-0.146
+	c0.195-0.195,0.195-0.512,0-0.707L6.08,4.873c-0.195-0.195-0.512-0.195-0.707,0c-0.195,0.195-0.195,0.512,0,0.707L8.202,8.409z"/>
+</svg>
+                    </div>
+                    <div class="col-sm-7 col-xs-12">
+                        <h3 class="degrees">80<span>&deg;F</span></h3>
+                        <h3 class="where"><I class="fa fa-map-marker"></I>&nbsp;&nbsp;St. Petersburg, FL</h3>
+                    </div>
+                      <div class="clear clearfix"></div>  
+                    </div></div>
+        
+        <div class="elements">
+            <div class="col-xs-12">
+                <span class="custom-radio"><input type="radio" id="r1" name="cc" />
+                <label for="r1"><span></span>Radio Box 1</label></span>
+                <span class="custom-radio"><input type="radio" id="r2" name="cc" />
+                <label for="r2"><span></span>Radio Box 2</label></span>
+                <span class="custom-radio"><input type="radio" id="r3" name="cc" />
+                <label for="r3"><span></span>Radio Box 3</label></span>
+            </div>
+            <div class="col-xs-12">
+                <span class="custom-check"><input type="checkbox" id="c1" name="cc" />
+<label for="c1"><span></span>Check Box 1</label></span>
+                <span class="custom-check"><input type="checkbox" id="c2" name="cc" />
+<label for="c2"><span></span>Check Box 2</label></span>
+                <span class="custom-check"><input type="checkbox" id="c3" name="cc" />
+<label for="c3"><span></span>Check Box 3</label></span>
+            </div>
+            <div class="col-xs-12">
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                </div>
+                </div>
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+    20%
+                </div>
+                </div>
+                
+            </div>
+        <div class="clear clearfix"></div>
+        </div>
+        
+            	</div><!-- /col -->
+      <div class="col-lg-4 col-sm-6 mbottom-25">
+                    <div class="module">
+                        <div class="module-header">
+                            <div class="module-title pull-left"><h3><span class="thin">To </span> do</h3></div>
+                           <ul class="actions pull-right">
+        <li class="dropdown cog">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                <i class="fa fa-cog"></i>
+            </a>
+
+            <ul role="menu" class="dropdown-menu noticebar-menu noticebar-hoverable">
+              <li>
+                <a class="noticebar-item" href="#">
+                   Action 1
+                </a>
+              </li>
+                <li>
+                <a class="noticebar-item" href="#">
+                    Action 2
+                </a>
+              </li>
+                <li>
+                <a class="noticebar-item" href="#">
+                    Action 3
+                </a>
+              </li>
+            </ul>
+          </li>
+                                <li><a data-target="#tasks" data-toggle="collapse"><i class="fa fa-angle-down"></i></a></li>
+                               <li><a href="#" class="remove"><span aria-hidden="true">×</span></a></li>
+
+                            </ul>
+                            <div class="clear clearfix"></div>
+                        </div><!-- module header -->
+            		<div class="collapse in" id="tasks">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                      <li class="active"><a href="#all" role="tab" data-toggle="tab">All</a></li>
+                      <li><a href="#complete" role="tab" data-toggle="tab">Complete</a></li>
+                      <li><a href="#in-progress" role="tab" data-toggle="tab">In Progress</a></li>
+                      <li><a href="#errors" role="tab" data-toggle="tab">Errors</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div class="tab-pane fade in active" id="all">
+                        <ul>
+                    <li><a href="#">Task item one title <span class="label label-success pull-right">Complete</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-info pull-right">In Progress</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-warning pull-right">Suspended</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-danger pull-right">Stopped</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-info pull-right">In Progress</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-success pull-right">Complete</span></a></li>
+                    </ul>
+                        </div>
+                      <div class="tab-pane fade" id="complete"><ul>
+                    <li><a href="#">Task item one title <span class="label label-success pull-right">Complete</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-success pull-right">Complete</span></a></li>
+                    </ul></div>
+                      <div class="tab-pane fade" id="in-progress">
+                        <ul>
+                    <li><a href="#">Task item one title <span class="label label-info pull-right">In Progress</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-info pull-right">In Progress</span></a></li>
+                    </ul>
+                        </div>
+                      <div class="tab-pane fade" id="errors">
+                        <ul>
+                    <li><a href="#">Task item one title <span class="label label-warning pull-right">Suspended</span></a></li>
+                    <li><a href="#">Task item one title <span class="label label-danger pull-right">Stopped</span></a></li>
+                    </ul>
+                        </div>
+                    </div>
+                                        </div></div>
+            	</div>
+
+<div class="col-lg-4 col-sm-6 mbottom-25">      
+  <!-- Responsive calendar - START -->
+<div class="responsive-calendar">
+  <div class="controls">
+      <a class="pull-left" data-go="prev"><div class="btn"><i class="fa fa-angle-left"></i></div></a>
+      <h4><span class="cal-year" data-head-year></span> <span class="cal-month" data-head-month></span></h4>
+      <a class="pull-right" data-go="next"><div class="btn"><i class="fa fa-angle-right"></i></div></a>
+  </div><hr/>
+  <div class="day-headers">
+    <div class="day header">Mon</div>
+    <div class="day header">Tue</div>
+    <div class="day header">Wed</div>
+    <div class="day header">Thu</div>
+    <div class="day header">Fri</div>
+    <div class="day header">Sat</div>
+    <div class="day header">Sun</div>
+  </div>
+  <div class="days" data-group="days">
+    <!-- the place where days will be generated -->
+  </div>
+</div>
+<!-- Responsive calendar - END -->  
+</div>     
+
+  </div><!-- /container -->
+
+  <!-- /END THE FEATURETTES -->
+
+
+  <!-- FOOTER -->
+  <footer>
+
+  </footer>
+
+</div><!-- /.container -->
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script></script>
+
+    <script type='text/javascript' src="js/bootstrap.js"></script>
+    <script type='text/javascript' src="js/responsive-calendar.js"></script>
+
+        
+        <script type='text/javascript'>
+        function changeStyle(title) {
+        var lnks = document.getElementsByTagName('link');
+        for (var i = lnks.length - 1; i >= 0; i--) {
+        if (lnks[i].getAttribute('rel').indexOf('style')> -1 && lnks[i].getAttribute('title')) {
+        lnks[i].disabled = true;
+        if (lnks[i].getAttribute('title') == title) lnks[i].disabled = false;
+        }}}
+            
+        $( document ).ready( function() {
+          $('.responsive-calendar').responsiveCalendar();
+        });
+            
+
+        </script>
+        
+    </body>
+</html>
